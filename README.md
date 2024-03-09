@@ -76,7 +76,7 @@ An API for an anime streaming site built with Django REST Framework.
 ### User Interactions
 - **POST /api/anime/{anime_id}/like**: Like an anime.
 - **POST /api/anime/{anime_id}/dislike**: Dislike an anime.
-= **POST /api/anime/{anime_id}/comments/create**: Create a comment for an anime.
+- **POST /api/anime/{anime_id}/comments/create**: Create a comment for an anime.
 - **PUT /api/anime/{anime_id}/comments/update/{comment_id}**: Update an existing comment.
 - **DELETE /api/anime/{anime_id}/comments/delete/{comment_id}**: Delete a specific comment.
 
